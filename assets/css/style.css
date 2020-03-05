@@ -1,0 +1,58 @@
+body{
+    background-color: lightgrey;
+}
+
+.left{
+    float: left;
+    width:70%;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+
+.right{
+    float:left;
+    margin: 20px;
+    margin-bottom: 5px;
+    width: 20%;
+}
+
+.gif-div{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image{
+    height: 100px;
+    width: auto;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+  }
+
+
+button{
+    background-color: teal;
+    color: white;
+    margin: 5px;
+  }
+/*
+@media only screen and (max-width: 640px) {
+    .left{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .right{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:100%;
+    }
+  }
+}
+*/
